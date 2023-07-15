@@ -6,10 +6,10 @@ function Warning() {
         <div className="container">
             <div className="warning">
                 <Link to="/wichtig">
-                    <img className='warning__close' src="src/assets/img/close.png" alt="close" />
+                    <img className='warning__close' src="/img/close.png" alt="close" />
                 </Link>
                 {/* couldn't dowload the warning LOGO */}
-                <img className='warning__icon' src="src/assets/img/icon_logo_signet.svg" alt="Warning-logo" />
+                <img className='warning__icon' src="/img/icon_logo_signet.svg" alt="Warning-logo" />
                 <h1>Wichtig!</h1>
                 <div className="warning__text">
                     <p>Unsere Angebote richten sich an bildungsbenachtiligte Schüler:innen. Du weißt nicht genau ob die zu

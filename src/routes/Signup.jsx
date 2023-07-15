@@ -9,18 +9,18 @@ function Signup() {
         <>
             <div className="signup">
                 <div className='signup__heading'>
-                    <img src="src/assets/img/icon_logo_signet.svg" alt="Logo" />
+                    <img src="/img/icon_logo_signet.svg" alt="Logo" />
                     <h1>Neu registrieren</h1>
                 </div>
                 <div className="signup__form">
                     <input type="email" placeholder='E-Mail' />
                     <div className="password-invisible">
                         <input type="password" placeholder='Passwort' />
-                        <img className='invisible' src="src/assets/img/invisible.png" alt="" />
+                        <img className='invisible' src="/img/invisible.png" alt="" />
                     </div>
                     <div className="password-invisible">
                         <input type="password" placeholder='Passwort wiederholen' />
-                        <img className='invisible' src="src/assets/img/invisible.png" alt="" />
+                        <img className='invisible' src="/img/invisible.png" alt="" />
                     </div>
                 </div>
                 <div className="signup__role">
@@ -31,15 +31,15 @@ function Signup() {
                     </div>
                     {/* couldn't dowload icons */}
                     <div className="signup__role--options">
-                        <img className='options-icon' src="src/assets/img/icon_logo_signet.svg" />
+                        <img className='options-icon' src="/img/icon_logo_signet.svg" />
                         Elternteil
                     </div>
                     <div className="signup__role--options">
-                        <img className='options-icon' src="src/assets/img/icon_logo_signet.svg" />
+                        <img className='options-icon' src="/img/icon_logo_signet.svg" />
                         Schüler:in
                     </div>
                     <div className="signup__role--options">
-                        <img className='options-icon' src="src/assets/img/icon_logo_signet.svg" />
+                        <img className='options-icon' src="/img/icon_logo_signet.svg" />
                         Helfer:in
                     </div>
                 </div>
