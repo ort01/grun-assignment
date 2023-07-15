@@ -19,7 +19,6 @@ function Wichtig() {
             </div>
             <button className='button button__yellow'>Ja. die Punkte treffen zu</button>
             <Link to="/"><button className='button button__yellow'>Nein, die Punkte treffen <br /> nicht zu</button></Link>
-
         </div>
     )
 }
