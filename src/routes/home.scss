@@ -1,56 +1,32 @@
-.home {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    color: #ffffff;
-    background-color: #2B4B51;
-    width: 320px;
-    height: 570px;
+@media only screen and (max-width: 600px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        color: $color-white;
+        background-color: $color-primary;
+        height: 100%;
+        width: 100%;
 
-    & img {
-        width: 100px;
-        margin: 40px auto 20px;
-    }
-
-    & h1 {
-        width: 240px;
-        margin: 10px auto;
-        font-size: 19px;
-        font-weight: bold;
-    }
-
-    & p {
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 1.5;
-        width: 285px;
-        margin: 5px auto 35px;
-    }
-
-    &__button {
-        width: 280px;
-        padding: 14px 0px;
-        border-radius: 5px;
-        margin: 0 auto;
-        font-size: 14px;
-        font-weight: 600;
-        font-family: inherit;
-        text-decoration: none;
-
-        &--login {
-            border: 1px solid #82B1B0;
-            color: #ffffff;
-            background: transparent;
+        & img {
+            width: 31%;
+            margin: 40px auto 20px;
         }
 
-        &--signup {
-            margin-top: 15px;
-            background: #FEDA50;
-            color: #2B4B51;
+        & h1 {
+            width: 240px;
+            margin: 10px auto;
+            font-size: 19px;
+            font-weight: bold;
         }
 
-        &:active {
-            transform: translateY(2px);
+        & p {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 1.5;
+            width: 90%;
+            margin: 5px auto 35px;
         }
     }
+
 }

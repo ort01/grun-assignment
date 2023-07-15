@@ -1,4 +1,5 @@
 import './login.scss'
+import { Link } from "react-router-dom";
 
 
 function Login() {
@@ -13,12 +14,18 @@ function Login() {
                 </div>
                 <div className="login__form">
                     <input type="email" placeholder='E-Mail' />
-                    <input type="password" placeholder='Passwort' />
-                    <div className='login__link login__form--link'>Passwort vergessen?</div>
-                    <button>Anmelden</button>
+                    <div className="password-invisible">
+                        <input type="password" placeholder='Passwort' />
+                        <img className='invisible' src="src/assets/img/invisible.png" alt="" />
+                    </div>
+                    <div className='link login__form--link'>Passwort vergessen?</div>
+                    <button className='button button__yellow'>Anmelden</button>
                 </div>
                 <p className='login__has-account'>Ich habe doch noch keinen Accont:</p>
-                <div className='login__link'>Neu registrieren</div>
+                <Link to="/signup">
+                    <div className='link'>Neu registrieren</div>
+                </Link>
+
             </div>
         </>
     )

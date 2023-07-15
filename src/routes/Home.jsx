@@ -13,10 +13,10 @@ function Home() {
                 <p>Hast du breits einen Account? Oder bist du neu bei uns und möchtest dich registrieren?</p>
                 <div>
                     <Link to="/login">
-                        <button className='home__button home__button--login'> Anmelden </button>
+                        <button className='button button__transparent'> Anmelden </button>
                     </Link>
                     <Link to="/signup">
-                        <button className='home__button home__button--signup'>Neu registrieren</button>
+                        <button className='button button__yellow'>Neu registrieren</button>
                     </Link>
 
                 </div>

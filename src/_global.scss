@@ -1,0 +1,61 @@
+button {
+    text-decoration: none;
+    font-weight: bold;
+    border: 0;
+    display: block;
+    cursor: pointer;
+    // box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all .3s;
+}
+
+.button {
+    width: 88%;
+    padding: 14px 0px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    text-decoration: none;
+
+    &__transparent {
+        border: 1px solid #82B1B0;
+        color: $color-white;
+        background: transparent;
+    }
+
+    &__yellow {
+        margin-top: 15px;
+        background: $color-yellow;
+        color: $color-primary;
+    }
+
+    &:active {
+        transform: translateY(2px);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09;
+    color: #82B1B0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.password-invisible {
+    position: relative;
+
+    & img {
+        width: 20px;
+        position: absolute;
+        top: 15px;
+        right: 13%;
+    }
+}

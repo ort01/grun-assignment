@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+
+    .container {
+        margin: 15px;
+        padding-bottom: 15px;
+    }
+
+    .warning {
+        background-color: $color-primary;
+        position: relative;
+        padding-bottom: 30px;
+        width: 100%;
+        border-radius: 8px;
+
+
+        &__close {
+            position: absolute;
+            width: 5%;
+            top: 15px;
+            right: 15px;
+        }
+
+        &__icon {
+            width: 35%;
+            margin: 40px auto 10px;
+        }
+
+        & h1 {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        &__text {
+            & p {
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 1.5;
+                width: 83%;
+                margin: 5px auto 25px;
+            }
+
+            & ul {
+                font-size: 12px;
+                line-height: 1.5;
+                width: 80%;
+                margin: 5px auto 25px;
+                text-align: left;
+            }
+        }
+
+    }
+}
