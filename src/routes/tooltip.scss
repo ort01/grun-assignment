@@ -7,6 +7,7 @@
         color: $color-primary;
         display: flex;
         flex-direction: column;
+        animation: fade-id 1s ease;
 
 
         &__content {

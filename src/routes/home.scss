@@ -7,6 +7,7 @@
         background-color: $color-primary;
         height: 100%;
         width: 100%;
+        animation: fade-id 1s ease;
 
         & img {
             width: 31%;
